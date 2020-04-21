@@ -15,11 +15,11 @@ restar /n 3 para multiplicar /n 4 para dividir");
  System.out.println("Ingrese el segundo numero");
  b = teclado.next();
  if(opcion.equals(1)){
- resultado = a + b;
+ resultado = a * b;
  }else if(opcion.equals(2)){
  resultado = a - b;
  }else if(opcion.equals(3)){
- resultado = a * b;
+resultado = a + b;
  }else{
  resultado = a / b;
  }
